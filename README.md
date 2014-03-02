@@ -3,8 +3,6 @@ JMines
 
 Java version of the Minesweeper Flags MSN game.
 
-Here is a zip file.
-
 How to test: 
 ------------
 - Step 1. Download binaries: https://dl.dropboxusercontent.com/u/55179154/JMines.zip
