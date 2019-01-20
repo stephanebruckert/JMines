@@ -1,13 +1,30 @@
-JMines
-======
+# JMines
 
-Java version of the Minesweeper Flags MSN game.
+Remake of 1on1 Minesweeper Flags by MSN games
 
-How to test: 
-------------
-- Step 1. Download binaries: https://dl.dropboxusercontent.com/u/55179154/JMines.zip
-- Step 2. Launch the server.
-- Step 3. Launch one client and enter the player name
-- Step 4. Reproduce step 2 as many times as you want.
+![menubar-preview](https://user-images.githubusercontent.com/1932338/51440750-2ca8bd80-1cc2-11e9-973b-991f5bdc643a.png)
 
-By Stéphane Bruckert & Donovan Charpin
+## Build
+
+    mvn package
+    
+## Run
+
+After building (or downloading from the releases section) the .jar:
+
+### Server
+
+Run this once.
+
+    java -cp targets/JMines-1.0.0.jar server.RunServer
+    
+### Client
+
+You can start multiple clients.
+
+    java -cp targets/JMines-1.0.0.jar client.RunClient
+
+
+## Authors
+
+By Stéphane Bruckert & Donovan Charpin for ENSICAEN
